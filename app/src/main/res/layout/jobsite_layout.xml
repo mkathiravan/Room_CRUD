@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/jobsite_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/big_padding"
+        android:layout_marginBottom="@dimen/big_padding"
+        android:fontFamily="sans-serif-light"
+        android:hint="Enter Name"
+        android:padding="@dimen/small_padding"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/jobsite_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/big_padding"
+        android:layout_marginBottom="@dimen/big_padding"
+        android:fontFamily="sans-serif-light"
+        android:hint="Enter Address"
+        android:padding="@dimen/small_padding"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/js_zonetype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/small_padding"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/jobsite_radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/big_padding"
+        android:layout_marginBottom="@dimen/big_padding"
+        android:fontFamily="sans-serif-light"
+        android:hint="Enter Radius"
+        android:padding="@dimen/small_padding"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/create_jsbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Save"
+        android:textColor="#FFFFFF"/>
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyTeam_POC</string>
+
+    <string name="tab_text_1">Employee</string>
+    <string name="tab_text_2">JobSite</string>
+    <string name="tab_text_3">Tasks</string>
+    <string name="dialog_message">Are you sure want to delete this record?</string>
+</resources>
